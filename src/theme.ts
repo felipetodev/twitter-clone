@@ -37,6 +37,14 @@ export default extendTheme({
           _hover: {
             backgroundColor: `${props.colorScheme}.600`
           }
+        }),
+        outline: (props: any) => ({
+          borderColor: `${props.colorScheme}.500`,
+          color: `${props.colorScheme}.500`,
+          fontWeight: 'bold',
+          _hover: {
+            borderColor: `${props.colorScheme}.600`
+          }
         })
       }
     }
